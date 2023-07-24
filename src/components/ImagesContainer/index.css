@@ -1,0 +1,6 @@
+.images-list-container {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

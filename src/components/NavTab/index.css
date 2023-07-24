@@ -1,0 +1,35 @@
+.tab-item-container {
+  list-style-type: none;
+}
+.tab-button {
+  font-family: 'Roboto';
+  color: blue;
+  font-size: 17px;
+  border: 2px solid blue;
+  font-weight: 500;
+  padding: 7px 20px 7px 20px;
+  margin-right: 40px;
+  background-color: transparent;
+  width: 170px;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .tab-button {
+    padding: 7px 15px 7px 15px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .tab-button {
+    padding: 5px 10px 5px 10px;
+    margin-right: 10px;
+    width: 80px;
+    font-size: 13px;
+  }
+}
+.select {
+  background-color: blue;
+  color:white;
+  opacity: 0.8;
+}
